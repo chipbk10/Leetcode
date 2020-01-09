@@ -1,6 +1,8 @@
+import dc.Problem95_UniqueBinarySearchTreeII;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Problem95_UniqueBinarySearchTreeII.run();
     }
 }
