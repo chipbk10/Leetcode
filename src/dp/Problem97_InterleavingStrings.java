@@ -99,6 +99,8 @@ public class Problem97_InterleavingStrings {
     /**
      * dp[i][j] represents s3[0,i+j] = s1[0,i] + s2[0,j] --- interleaving
      * In general, dp[i][j] will depend on dp[i-1][j] or dp[i][j-1]
+     *
+     * Can be improved by using 1D Dynamic Programming
      */
     private boolean dp_top_down(String s1, String s2, String s3) {
         int n1 = s1.length(), n2 = s2.length(), n3 = s3.length();
