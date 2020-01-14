@@ -125,7 +125,7 @@ public class Problem108_ConvertSortedArrayToBinarySearchTree {
             lo = mid+1;
             TreeNode node = st.pop();
             node.val = nums[i++];
-            node.right = pushAllLeft(mid+1, hi, st, inds);
+            node.right = pushAllLeft(lo, hi, st, inds);
         }
         return root;
     }
