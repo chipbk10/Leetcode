@@ -25,14 +25,44 @@ public class Problem198_HouseRobber {
      */
 
     public int rob(int[] nums) {
-        if (nums.length == 0) return 0;
-        int prev1 = 0;
-        int prev2 = 0;
-        for (int num : nums) {
-            int tmp = prev1;
-            prev1 = Math.max(prev2 + num, prev1);
-            prev2 = tmp;
+        int n = nums.length;
+        if (n == 0) return 0;
+
+        // return rob_top_down(nums, n-1);
+
+        // int[] memo = new int[n];
+        // Arrays.fill(memo, -1);
+        // return rob_top_down_memo(nums, n-1, memo);
+
+        return rob_iterative_bottom_up_dp(nums);
+    }
+
+    private int rob_top_down(int[] nums, int i) {
+        if (i == 0) return nums[0];
+        if (i == 1) return Math.max(nums[0], nums[1]);
+        return Math.max(nums[i] + rob_top_down(nums, i-2), rob_top_down(nums, i-1));
+    }
+
+    private int rob_top_down_memo(int[] nums, int i, int[] memo) {
+        if (memo[i] != -1) return memo[i];
+        if (i == 0) memo[i] = nums[0];
+        else if (i == 1) memo[i] = Math.max(nums[0], nums[1]);
+        else memo[i] = Math.max(nums[i] + rob_top_down_memo(nums, i-2, memo), rob_top_down_memo(nums, i-1, memo));
+        return memo[i];
+    }
+
+    private int rob_iterative_bottom_up_dp(int[] nums) {
+        int n = nums.length;
+        if (n == 1) return nums[0];
+        if (n == 2) return Math.max(nums[0], nums[1]);
+        int[] dp = new int[n];
+        // dp[i] = maximum amount of money we can rob in a list of houses [0..i];
+        dp[0] = nums[0];
+        dp[1] = Math.max(nums[0], nums[1]);
+        // can improve space complexity, because dp[i] depends only on dp[i-1] and dp[i-2];
+        for (int i = 2; i < n; i++) {
+            dp[i] = Math.max(dp[i-1], nums[i] + dp[i-2]);
         }
-        return prev1;
+        return dp[n-1];
     }
 }
