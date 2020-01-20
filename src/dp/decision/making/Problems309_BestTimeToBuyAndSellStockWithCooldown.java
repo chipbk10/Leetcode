@@ -14,26 +14,70 @@ public class Problems309_BestTimeToBuyAndSellStockWithCooldown {
 
 
     public int maxProfit(int[] A) {
-        return dfs(A, -3, -2, 0);
+        return solution_dp4(A);
     }
 
-    private int dfs(int[] A, int lastBuy, int lastSell, int i) {
-        if (i == A.length) return 0;
+    private int solution_dp1(int[] A) {
+        int N = A.length;
+        if (N < 2) return 0;
 
-        // choose to ignore
-        int maxProfit = dfs(A, lastBuy, lastSell, i+1);
-
-        boolean bought = (lastBuy > lastSell), sold = (lastSell > lastBuy), cooldown = (lastSell+1 == i);
-
-        if (bought) {
-            // choose to buy
-            maxProfit = Math.max(maxProfit, A[i] + dfs(A, lastBuy, i, i+1));
-        }
-        else if (!cooldown) {
-            // choose to sell
-            maxProfit = Math.max(maxProfit, -A[i] + dfs(A, i, lastSell, i+1));
+        int dp[] = new int[N];
+        for (int i = 1; i < N; i++) {
+            dp[i] = dp[i-1];
+            for (int j = 0; j < i; j++) {
+                int prev = (j < 2) ? 0 : dp[j-2];
+                dp[i] = Math.max(dp[i], A[i] - A[j] + prev);
+            }
         }
 
-        return maxProfit;
+        return dp[N-1];
     }
+
+    private int solution_dp2(int[] A) {
+        int N = A.length;
+        if (N < 2) return 0;
+
+        int dp[] = new int[N];
+        for (int i = 1; i < N; i++) {
+
+            int max = -A[0];
+            for (int j = 1; j < i; j++) {
+                int prev = (j < 2) ? 0 : dp[j-2];
+                max = Math.max(max, prev - A[j]);
+            }
+
+            dp[i] = Math.max(dp[i-1], A[i] + max);
+        }
+
+        return dp[N-1];
+    }
+
+    private int solution_dp3(int[] A) {
+        int N = A.length;
+        if (N < 2) return 0;
+
+        int dp[] = new int[N], max = -A[0];
+        for (int i = 1; i < N; i++) {
+            int prev = (i < 3) ? 0 : dp[i-3];
+            max = Math.max(max, prev - A[i-1]);
+            dp[i] = Math.max(dp[i-1], A[i] + max);
+        }
+
+        return dp[N-1];
+    }
+
+    private int solution_dp4(int[] A) {
+        int N = A.length;
+        if (N < 2) return 0;
+
+        int dp3 = 0, dp2 = 0, dp1 = 0, dp = 0, max = -A[0];
+        for (int i = 1; i < N; i++) {
+            max = Math.max(max, dp3 - A[i-1]);
+            dp = Math.max(dp1, A[i] + max);
+            dp3 = dp2; dp2 = dp1; dp1 = dp;
+        }
+
+        return dp;
+    }
+
 }
