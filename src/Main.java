@@ -1,8 +1,8 @@
-import dc.Problem95_UniqueBinarySearchTreeII;
+import backtrack.linkedlist.Problem546_RemoveBoxes;
 
 public class Main {
 
     public static void main(String[] args) {
-        Problem95_UniqueBinarySearchTreeII.run();
+        Problem546_RemoveBoxes.run();
     }
 }
