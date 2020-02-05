@@ -20,6 +20,9 @@ public class ReadMe {
      *    }
      *  }
      *
+     *  Be careful when we swap 2 loops, and handle when the element can be repeated.
+     *  The sum-up should be written.
+     *
      * Problems:
      *  70. Climbing Stairs easy
      *  62. Unique Paths Medium
@@ -31,6 +34,7 @@ public class ReadMe {
      *  935. Knight Dialer Medium
      *  1223. Dice Roll Simulation Medium
      *  416. Partition Equal Subset Sum Medium
+     *  518. Coin Change 2
      *  808. Soup Servings Medium
      *  790. Domino and Tromino Tiling Medium
      *  801. Minimum Swaps To Make Sequences Increasing
