@@ -5,6 +5,7 @@
 ## Merge Interval DP: 546, 312, 1000
 ## Game:
 ## Knapsack: 416, 518
+## Subsequence: 673
 
 # Todo
 
