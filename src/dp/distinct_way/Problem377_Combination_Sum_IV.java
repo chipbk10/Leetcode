@@ -1,4 +1,4 @@
-package dp.distinct.way;
+package dp.distinct_way;
 
 public class Problem377_Combination_Sum_IV {
 

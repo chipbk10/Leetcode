@@ -1,4 +1,4 @@
-package dp.decision.making;
+package dp.decision_making;
 
 /**
  * You are a professional robber planning to rob houses along a street.
