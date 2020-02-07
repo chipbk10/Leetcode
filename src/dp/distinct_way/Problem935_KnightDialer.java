@@ -1,4 +1,4 @@
-package dp.distinct.way;
+package dp.distinct_way;
 
 import java.util.Arrays;
 

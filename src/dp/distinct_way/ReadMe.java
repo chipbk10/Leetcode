@@ -1,4 +1,4 @@
-package dp.distinct.way;
+package dp.distinct_way;
 
 public class ReadMe {
 
@@ -32,12 +32,12 @@ public class ReadMe {
      *  494. Target Sum Medium
      *  377. Combination Sum IV Medium
      *  935. Knight Dialer Medium
-     *  1223. Dice Roll Simulation Medium
+     X  1223. Dice Roll Simulation Medium
      *  416. Partition Equal Subset Sum Medium
      *  518. Coin Change 2
-     *  808. Soup Servings Medium
+     X  808. Soup Servings Medium
      *  790. Domino and Tromino Tiling Medium
-     *  801. Minimum Swaps To Make Sequences Increasing
+     X  801. Minimum Swaps To Make Sequences Increasing
      *  673. Number of Longest Increasing Subsequence Medium
      *  63. Unique Paths II Medium
      *  576. Out of Boundary Paths Medium

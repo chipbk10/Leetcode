@@ -1,4 +1,4 @@
-package dp.merge.interval;
+package dp.merge_interval;
 
 public class Problem312_BurstBalloons {
 

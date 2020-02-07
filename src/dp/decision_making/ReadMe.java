@@ -1,4 +1,4 @@
-package dp.decision.making;
+package dp.decision_making;
 
 public class ReadMe {
 
