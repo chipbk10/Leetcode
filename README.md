@@ -4,7 +4,7 @@
 ## Monotonic: 1135
 ## Merge Interval DP: 546, 312, 1000
 ## Game:
-## Knapsack: 416, 518
+## Knapsack: 416, 518, 1049
 ## Subsequence: 673
 
 # Todo
