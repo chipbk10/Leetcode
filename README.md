@@ -6,6 +6,7 @@
 ## Game:
 ## Knapsack: 416, 518, 1049
 ## Subsequence: 673
+## Tiling a rectangle: 1240, 790
 
 # Todo
 
