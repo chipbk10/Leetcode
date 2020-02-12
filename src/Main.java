@@ -1,8 +1,8 @@
-import dp.min_max_path_to_reach_target.Problem1049_LastStoneWeightII;
+import backtrack.Problem1240_TilingRectangleWithTheFewestSquares;
 
 public class Main {
 
     public static void main(String[] args) {
-        Problem1049_LastStoneWeightII.run();
+        Problem1240_TilingRectangleWithTheFewestSquares.run();
     }
 }
