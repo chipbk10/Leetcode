@@ -8,11 +8,13 @@
 ### Subsequence: 673
 ### Tiling a rectangle: 1240, 790
 
-# Todo
+# Todo:
 
 http://bit.ly/2uCxtJK
 
-# Technique
+# Technique:
 
 ### Skyline: 1240
+
+# Favorite: 871, 938
 
