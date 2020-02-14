@@ -14,9 +14,9 @@ http://bit.ly/2uCxtJK
 
 # Technique:
 
-### Skyline: 1240
+#### Skyline: 1240
 
 # Favorite: 
 
-### 871, 938
+#### 871, 938
 
