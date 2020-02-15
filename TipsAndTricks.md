@@ -1,0 +1,2 @@
+- when **going forward** doesn't work, then think the opposite : **going backward** [174]()
+- denote `dp[i][distance]` as the minimum number of choices might lead to **`TLE`** or **`MLE`**, then think the opposite: denote `dp[i][j]` as choose `j` times in `i` first elements to reach the furthest distance [871]()
