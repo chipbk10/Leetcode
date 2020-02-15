@@ -1,8 +1,8 @@
-import dp.min_max_path_to_reach_target.Problem871_MinimumNumberOfRefuelingStops;
+import dp.min_max_path_to_reach_target.Problem174_DungeonGame;
 
 public class Main {
 
     public static void main(String[] args) {
-        Problem871_MinimumNumberOfRefuelingStops.run();
+        Problem174_DungeonGame.run();
     }
 }
