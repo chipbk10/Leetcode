@@ -1,1 +1,2 @@
 - [DP](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
+- [Graph](): Cyclic, Colors Algorithm, Topological Sorting
