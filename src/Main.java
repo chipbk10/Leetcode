@@ -1,8 +1,8 @@
-import dp.min_max_path_to_reach_target.Problem174_DungeonGame;
+import graph.Problem207_CourseSchedule;
 
 public class Main {
 
     public static void main(String[] args) {
-        Problem174_DungeonGame.run();
+        Problem207_CourseSchedule.run();
     }
 }
