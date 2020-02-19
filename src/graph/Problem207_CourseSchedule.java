@@ -21,6 +21,12 @@ public class Problem207_CourseSchedule {
         return bfs(numCourses, prerequisites);
     }
 
+
+    // imagine like we all vertices without attachments( without dependencies).
+    // Keep track on the dependencies of each element after removals.
+    // Continue until we remove all vertices from graph
+
+    // Another imagination: how to burn a forest? We will try to burn from outside to inside
     private boolean bfs(int numCourses, int[][] prerequisites) {
         int n = numCourses;
         ArrayList<Integer>[] G = new ArrayList[n];
@@ -67,7 +73,7 @@ public class Problem207_CourseSchedule {
         return true;
     }
 
-    // DFS
+    // DFS: imagine like each time, we withdraw a string from a mess of strings until a mess is clear
     private boolean dfs_isCyclic(List<Integer>[] G, int i, boolean[] seen, boolean[] processed) {
         if (processed[i]) return false;
         if (seen[i]) return true;
