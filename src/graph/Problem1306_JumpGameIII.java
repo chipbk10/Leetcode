@@ -6,6 +6,7 @@ import java.util.Stack;
 
 public class Problem1306_JumpGameIII {
 
+    // dfs
     public boolean canReach(int[] arr, int start) {
         if (arr[start] == 0) return true;
 
