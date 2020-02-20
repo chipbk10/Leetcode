@@ -1,4 +1,4 @@
-package graph;
+package graph.topological;
 import java.util.*;
 
 public class Problem210_CourseScheduleII {
@@ -49,7 +49,7 @@ public class Problem210_CourseScheduleII {
         for (int j : G[i]) {
             if (isCyclic(G, j, seen, processed, res)) return true;
         }
-        seen[i] = false;
+        // seen[i] = false;
         processed[i] = true;
         res[--index] = i;
         return false;

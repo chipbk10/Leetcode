@@ -1,4 +1,4 @@
-package graph;
+package graph.topological;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

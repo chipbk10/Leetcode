@@ -1,4 +1,4 @@
-package graph;
+package graph.topological;
 
 import java.util.HashSet;
 import java.util.Set;

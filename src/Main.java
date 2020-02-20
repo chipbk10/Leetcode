@@ -1,8 +1,8 @@
-import graph.Problem210_CourseScheduleII;
+import graph.Problem1129_ShortestPathWithAlternatingColor;
 
 public class Main {
 
     public static void main(String[] args) {
-        Problem210_CourseScheduleII.run();
+        Problem1129_ShortestPathWithAlternatingColor.run();
     }
 }
