@@ -1,9 +1,6 @@
 package greedy;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class Problem1042_FlowerPlantingWithNoAdjacent {
 
@@ -13,7 +10,6 @@ public class Problem1042_FlowerPlantingWithNoAdjacent {
         //... via adjacency list
         for (int i = 0; i < N; i++) graph.put(i, new HashSet<>());
         //Add the edges
-
         for (int[] path : paths){
             int x = path[0] - 1; //Due to 1-based indexing
             int y = path[1] - 1; //Due to 1-based indexing
@@ -34,12 +30,32 @@ public class Problem1042_FlowerPlantingWithNoAdjacent {
             }
             //Now just use a color that has not been used yet
             for (int c = 4; c >= 1; c--){
-                if (colors[c] != 1) //colors[c] == 0 => the color has not been used yet,
+                if (colors[c] != 1) { //colors[c] == 0 => the color has not been used yet,
                     res[i] = c; //so let's use that one
+                    break;
+                }
             }
         }
 
         return res;
 
+    }
+
+    public int[] anotherGardenNoAdj(int N, int[][] paths) {
+        int[] flowers = new int[N];
+        Arrays.fill(flowers, 1);
+        boolean done;
+        do {
+            done = true;
+            for (int[] p : paths) {
+                int u = Math.min(p[0], p[1]) - 1;
+                int v = Math.max(p[0], p[1]) - 1;
+                if (flowers[u] == flowers[v]) {
+                    flowers[v] = flowers[v] % 4 + 1;
+                    done = false;
+                }
+            }
+        } while (!done);
+        return flowers;
     }
 }
