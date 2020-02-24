@@ -8,6 +8,8 @@
 ### Subsequence: 673
 ### Tiling a rectangle: 1240, 790
 ### Topological Sort: 207, 210, 329
+### Random:
+### Trie:
 
 # Todo:
 
