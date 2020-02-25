@@ -1,8 +1,8 @@
-import graph.Problem1129_ShortestPathWithAlternatingColor;
+import backtrack.Problem1307_VerbalArithmeticPuzzle;
 
 public class Main {
 
     public static void main(String[] args) {
-        Problem1129_ShortestPathWithAlternatingColor.run();
+        Problem1307_VerbalArithmeticPuzzle.run();
     }
 }
