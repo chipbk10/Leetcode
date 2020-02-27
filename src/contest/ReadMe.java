@@ -13,8 +13,8 @@ public class ReadMe {
     // divide & conquer:    932[!]
     // greedy:              1354[!]
     // stack:               1190[!]
-    // binary search:       1351
-    // 2 pointers:          1248
+    // binary search:       1351[v]
+    // 2 pointers:          1248[!]
     // sliding window:      1208
     // linked-list:         1290
     // union-find:          1202
@@ -23,4 +23,8 @@ public class ReadMe {
     // bit manipulation:    1356
     // other:               913
 
+
+    // x: not done or give up
+    // v: well done
+    // !: struggle, get the idea but not done in a pre-defined time
 }
