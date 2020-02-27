@@ -10,6 +10,7 @@
 ### Topological Sort: 207, 210, 329
 ### Random:
 ### Trie:
+### Binary Search: [#](https://leetcode.com/discuss/interview-question/313216/)
 
 # Favorite: 
 
