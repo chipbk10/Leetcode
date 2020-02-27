@@ -38,7 +38,9 @@ public class ReadMe {
      *     hi = mid
      *   else:
      *     lo = mid+1
-     * return lo
+     *
+     * return lo ---> lowest element that satifies function(x)
+     * return hi ---> highest element that not satifies function(x)
      *
      * No matter which one you use, just be careful about updating the hi and lo,
      * which could easily lead to infinite loop.
