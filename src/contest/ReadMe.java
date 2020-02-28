@@ -14,7 +14,7 @@ public class ReadMe {
     // greedy:              1354[!]
     // stack:               1190[!]
     // binary search:       1351[v]
-    // 2 pointers:          1248[!]
+    // 2 pointers:          1248[*]
     // sliding window:      1208
     // linked-list:         1290
     // union-find:          1202
@@ -27,4 +27,6 @@ public class ReadMe {
     // x: not done or give up
     // v: well done
     // !: struggle, get the idea but not done in a pre-defined time
+    // *: interesting, should be reviewed
+
 }
