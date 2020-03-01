@@ -1,8 +1,8 @@
-import backtrack.Problem1307_VerbalArithmeticPuzzle;
+import slidingwindow.Problem992_SubarraysWithKDifferentIntegers;
 
 public class Main {
 
     public static void main(String[] args) {
-        Problem1307_VerbalArithmeticPuzzle.run();
+        Problem992_SubarraysWithKDifferentIntegers.run();
     }
 }
