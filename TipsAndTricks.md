@@ -6,4 +6,6 @@
 - **dp bitMask** by row [1349]()
 - **overflow** might lead to a wrong calculation when returning the max (or min) value. `long` comes to rescue, and do `mod` at the end [1339]()
 - exactly `K times` = **at most** `K times` - **at most** `K - 1 times`[1248]() [992]() [#](https://leetcode.com/problems/count-number-of-nice-subarrays/discuss/419378/JavaC%2B%2BPython-Sliding-Window-O(1)-Space)
+- swap -> union-find [1202]()
+- even & odd [1054](https://leetcode.com/problems/distant-barcodes/discuss/299225/Python-Set-Odd-Position-and-Even-Position), [932](https://leetcode.com/problems/beautiful-array/discuss/186679/Odd-%2B-Even-Pattern-O(N))
 
