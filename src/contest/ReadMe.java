@@ -18,8 +18,8 @@ public class ReadMe {
     // sliding window:      1208[v]
     // linked-list:         1290[v]
     // union-find:          1202[v]
-    // heap:                1054
-    // design:              1352
+    // heap:                1054[!]
+    // design:              1352[x]
     // bit manipulation:    1356
     // other:               913
 
