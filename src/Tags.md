@@ -1,0 +1,26 @@
+
+### MAIN:
+- [tree](https://leetcode.com/tag/tree/)
+- [graph](https://leetcode.com/tag/graph/)
+- [dfs](https://leetcode.com/tag/depth-first-search/)
+- [bfs](https://leetcode.com/tag/breadth-first-search/)
+- [backtracking](https://leetcode.com/tag/backtracking/)
+- [dp](https://leetcode.com/tag/dynamic-programming/)
+- [divide & conquer](https://leetcode.com/tag/divide-and-conquer/)
+- [greedy](https://leetcode.com/tag/greedy/)
+- [stack](https://leetcode.com/tag/stack/)
+- [binary search](https://leetcode.com/tag/binary-search/)
+- [2 pointers](https://leetcode.com/tag/two-pointers/)
+- [sliding window](https://leetcode.com/tag/sliding-window/)
+- [linked list](https://leetcode.com/tag/linked-list/)
+- [union find](https://leetcode.com/tag/union-find/)
+- [heap](https://leetcode.com/tag/heap/)
+- [design](https://leetcode.com/tag/design/)
+- [bit manipulation](https://leetcode.com/tag/bit-manipulation/)
+
+### OTHERS:
+- [minimax](https://leetcode.com/tag/minimax/)
+- [line sweep](https://leetcode.com/tag/line-sweep/)
+- [segment tree](https://leetcode.com/tag/segment-tree/)
+- [trie](https://leetcode.com/tag/trie/)
+- [math](https://leetcode.com/tag/math/)

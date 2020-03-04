@@ -11,6 +11,7 @@
 ### Random:
 ### Trie:
 ### Binary Search: [#](https://leetcode.com/discuss/interview-question/313216/)
+### Minimax: 913
 
 # Favorite: 
 
