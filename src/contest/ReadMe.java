@@ -4,8 +4,8 @@ public class ReadMe {
 
     // TOPICS               [v]         [x]
 
-    // tree:                1339[v]     1325
-    // graph:               997[v]      1361
+    // tree:                1339[v]     1325[v]
+    // graph:               997[v]      1361[v]
     // dfs:                 1319[v]     1254
     // bfs:                 1345[v]     1368
     // backtrack:           1307[!]     1239
