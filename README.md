@@ -12,10 +12,11 @@
 ### Trie:
 ### Binary Search: [#](https://leetcode.com/discuss/interview-question/313216/)
 ### Minimax: 913
+### Matrix: 1368,
 
 # Favorite: 
 
-#### 871, 938, 174, 332
+#### 871, 938, 174, 332, 1368
 
 # FollowUp:
 
