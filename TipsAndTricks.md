@@ -3,7 +3,7 @@
 - using **skyline** technique in `matrix` to maintain the minimum point state [1240]()
 - graph: Floyd
 - **dp 2 times** [1162]() **dp many times until convergence** [1368](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/discuss/524845/C%2B%2B96ms-Forward-and-Backward-DP-Bounded-by-O((m%2Bn)mn))
-- **dp bitMask** by row [1349]()
+- **dp bitMask** by row [1349](), given a string with unique characters [1239]()
 - **overflow** might lead to a wrong calculation when returning the max (or min) value. `long` comes to rescue, and do `mod` at the end [1339]()
 - exactly `K times` = **at most** `K times` - **at most** `K - 1 times`[1248]() [992]() [#](https://leetcode.com/problems/count-number-of-nice-subarrays/discuss/419378/JavaC%2B%2BPython-Sliding-Window-O(1)-Space)
 - swap -> union-find [1202]()
