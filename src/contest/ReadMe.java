@@ -9,7 +9,7 @@ public class ReadMe {
     // dfs:                 1319[v]     1254[v]
     // bfs:                 1345[v]     1368[!]
     // backtrack:           1307[!]     1239[v]
-    // dp:                  1349[!]     1340
+    // dp:                  1349[!]     1340[v]
     // divide & conquer:    932[!]      514
     // greedy:              1354[!]     1353
     // stack:               1190[!]     975
