@@ -11,7 +11,7 @@ public class ReadMe {
     // backtrack:           1307[!]     1239[v]
     // dp:                  1349[!]     1340[v]
     // divide & conquer:    932[!]      514
-    // greedy:              1354[!]     1353
+    // greedy:              1354[!]     1353[x]
     // stack:               1190[!]     975
     // binary search:       1351[v]     1337
     // 2 pointers:          1248[*]     1234
