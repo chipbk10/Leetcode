@@ -9,3 +9,4 @@
 - swap -> union-find [1202]()
 - even & odd [1054](https://leetcode.com/problems/distant-barcodes/discuss/299225/Python-Set-Odd-Position-and-Even-Position), [932](https://leetcode.com/problems/beautiful-array/discuss/186679/Odd-%2B-Even-Pattern-O(N))
 - [binary matrix](https://www.geeksforgeeks.org/0-1-bfs-shortest-path-binary-graph/) --> Dijkstra -> [bfs + dfs](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/discuss/524886/JavaC%2B%2BPython-BFS-and-DFS)
+- find the next larger or next smaller --> using stack [1019]()
