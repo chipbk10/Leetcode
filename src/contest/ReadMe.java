@@ -12,9 +12,9 @@ public class ReadMe {
     // dp:                  1349[!]     1340[v]
     // divide & conquer:    932[!]      514
     // greedy:              1354[!]     1353[x]
-    // stack:               1190[!]     975
-    // binary search:       1351[v]     1337
-    // 2 pointers:          1248[*]     1234
+    // stack:               1190[!]     975[x]
+    // binary search:       1351[v]     1337[v]
+    // 2 pointers:          1248[*]     1234[v]
     // sliding window:      1208[v]     1040
     // linked-list:         1290[v]     1019
     // union-find:          1202[v]     924
