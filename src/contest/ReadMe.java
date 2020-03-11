@@ -16,11 +16,11 @@ public class ReadMe {
     // binary search:       1351[v]     1337[v]
     // 2 pointers:          1248[*]     1234[v]
     // sliding window:      1208[v]     1040
-    // linked-list:         1290[v]     1019
+    // linked-list:         1290[v]     1019[!]
     // union-find:          1202[v]     924
     // heap:                1054[!]     882
     // design:              1352[x]     1348
-    // bit manipulation:    1356[v]     1342
+    // bit manipulation:    1356[v]     1342[v]
     // other:               913[x]      1288
 
 
