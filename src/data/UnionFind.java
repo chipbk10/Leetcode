@@ -9,13 +9,16 @@ public class UnionFind {
     public UnionFind(int n) {
         num = n;
         parents = new int[n];
-        for (int i = 1; i < n; i++) parents[i] = i;
         rank = new int[n];
+        for (int i = 1; i < n; i++) parents[i] = i;
+        for (int i = 0; i < n; i++) rank[i] = 1;
     }
 
     public int size() {
         return num;
     }
+
+    public int size(int i) { return rank[find(i)]; }
 
     public int find(int i) {
         while (i != parents[i]) {
