@@ -2,26 +2,26 @@ package contest;
 
 public class ReadMe {
 
-    // TOPICS               [v]         [v]
+    // TOPICS               [v]         [v]         [x]
 
-    // tree:                1339[v]     1325[v]
-    // graph:               997[v]      1361[v]
-    // dfs:                 1319[v]     1254[v]
-    // bfs:                 1345[v]     1368[!]
-    // backtrack:           1307[!]     1239[v]
-    // dp:                  1349[!]     1340[v]
-    // divide & conquer:    932[!]      514
-    // greedy:              1354[!]     1353[x]
-    // stack:               1190[!]     975[x]
-    // binary search:       1351[v]     1337[v]
-    // 2 pointers:          1248[*]     1234[v]
-    // sliding window:      1208[v]     1040[!]
-    // linked-list:         1290[v]     1019[!]
-    // union-find:          1202[v]     924[v]
-    // heap:                1054[!]     882[!]
-    // design:              1352[x]     1348[x]
-    // bit manipulation:    1356[v]     1342[v]
-    // other:               913[x]      1288[v]
+    // tree:                1339[v]     1325[v]     1379
+    // graph:               997[v]      1361[v]     1043
+    // dfs:                 1319[v]     1254[v]     1377
+    // bfs:                 1345[v]     1368[!]     1311
+    // backtrack:           1307[!]     1239[v]     1219
+    // dp:                  1349[!]     1340[v]     1367
+    // divide & conquer:    932[!]      514         903
+    // greedy:              1354[!]     1353[x]     1338
+    // stack:               1190[!]     975[x]      1381
+    // binary search:       1351[v]     1337[v]     1292
+    // 2 pointers:          1248[*]     1234[v]     986
+    // sliding window:      1208[v]     1040[!]     995
+    // linked-list:         1290[v]     1019[!]     876
+    // union-find:          1202[v]     924[v]      947
+    // heap:                1054[!]     882[!]      864
+    // design:              1352[x]     1348[x]     705
+    // bit manipulation:    1356[v]     1342[v]     1318
+    // other:               913[x]      1288[v]     843
 
 
     // x: not done or give up
