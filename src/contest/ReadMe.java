@@ -2,7 +2,7 @@ package contest;
 
 public class ReadMe {
 
-    // TOPICS               [v]         [x]
+    // TOPICS               [v]         [v]
 
     // tree:                1339[v]     1325[v]
     // graph:               997[v]      1361[v]
@@ -17,11 +17,11 @@ public class ReadMe {
     // 2 pointers:          1248[*]     1234[v]
     // sliding window:      1208[v]     1040[!]
     // linked-list:         1290[v]     1019[!]
-    // union-find:          1202[v]     924
-    // heap:                1054[!]     882
-    // design:              1352[x]     1348
+    // union-find:          1202[v]     924[v]
+    // heap:                1054[!]     882[!]
+    // design:              1352[x]     1348[x]
     // bit manipulation:    1356[v]     1342[v]
-    // other:               913[x]      1288
+    // other:               913[x]      1288[v]
 
 
     // x: not done or give up

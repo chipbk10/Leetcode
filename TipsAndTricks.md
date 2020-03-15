@@ -12,5 +12,6 @@
 - find the next larger or next smaller --> using stack [1019]().
 In general, using stack to find the closet solution.
 Store currently unsolved elements, later if there is a bigger number, withdraw the unsolved elements and get the answer
+- intervals: sort by left bound then right bound [1288]()
 
 
