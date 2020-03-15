@@ -2,7 +2,7 @@
 
 ### Handle Duplicate: 115, 730
 ### Monotonic: 1135
-### Intervals: 546, 312, 1000, 1353
+### Intervals: 546, 312, 1000, 1353, 1288
 ### Game:
 ### Knapsack: 416, 518, 1049
 ### Subsequence: 673
