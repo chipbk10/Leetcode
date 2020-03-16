@@ -8,7 +8,7 @@ public class ReadMe {
     // graph:               997[v]      1361[v]     1043[v]
     // dfs:                 1319[v]     1254[v]     1377[v]
     // bfs:                 1345[v]     1368[!]     1311
-    // backtrack:           1307[!]     1239[v]     1219
+    // backtrack:           1307[!]     1239[v]     1219[v]
     // dp:                  1349[!]     1340[v]     1367
     // divide & conquer:    932[!]      514         903
     // greedy:              1354[!]     1353[x]     1338
