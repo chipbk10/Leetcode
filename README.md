@@ -12,7 +12,7 @@
 ### Trie:
 ### Binary Search: [#](https://leetcode.com/discuss/interview-question/313216/)
 ### Minimax: 913
-### Matrix: 1368,
+### Matrix: 1368, 1292
 
 # Favorite: 
 
