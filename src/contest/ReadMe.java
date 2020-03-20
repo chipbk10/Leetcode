@@ -9,11 +9,11 @@ public class ReadMe {
     // dfs:                 1319[v]     1254[v]     1377[v]
     // bfs:                 1345[v]     1368[!]     1311
     // backtrack:           1307[!]     1239[v]     1219[v]
-    // dp:                  1349[!]     1340[v]     1367
-    // divide & conquer:    932[!]      514         903
-    // greedy:              1354[!]     1353[x]     1338
-    // stack:               1190[!]     975[x]      1381
-    // binary search:       1351[v]     1337[v]     1292
+    // dp:                  1349[!]     1340[v]     1367[v]
+    // divide & conquer:    932[!]      514         903[v]
+    // greedy:              1354[!]     1353[x]     1338[v]
+    // stack:               1190[!]     975[x]      1381[v]
+    // binary search:       1351[v]     1337[v]     1292[!]
     // 2 pointers:          1248[*]     1234[v]     986
     // sliding window:      1208[v]     1040[!]     995
     // linked-list:         1290[v]     1019[!]     876
