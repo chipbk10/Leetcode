@@ -13,5 +13,7 @@
 In general, using stack to find the closet solution.
 Store currently unsolved elements, later if there is a bigger number, withdraw the unsolved elements and get the answer
 - intervals: sort by left bound then right bound [1288]()
+- `A[i][j]` - consider i & j as 2 separate points (running in 2 separate ranges) -> union find [947](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/discuss/197668/Count-the-Number-of-Islands-O(N)
+- initiate UF when doing union (using Map) [947](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/discuss/197668/Count-the-Number-of-Islands-O(N)
 
 
