@@ -15,5 +15,6 @@ Store currently unsolved elements, later if there is a bigger number, withdraw t
 - intervals: sort by left bound then right bound [1288]()
 - `A[i][j]` - consider i & j as 2 separate points (running in 2 separate ranges) -> union find [947](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/discuss/197668/Count-the-Number-of-Islands-O(N)
 - initiate UF when doing union (using Map) [947](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/discuss/197668/Count-the-Number-of-Islands-O(N)
+- how to guess an element from a set? [843](https://leetcode.com/problems/guess-the-word/discuss/160945/Python-O(n)-with-maximum-overlap-heuristic)
 
 
