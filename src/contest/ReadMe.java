@@ -21,7 +21,7 @@ public class ReadMe {
     // heap:                1054[!]     882[!]      864[x]
     // design:              1352[x]     1348[x]     705[v]
     // bit manipulation:    1356[v]     1342[v]     1318[v]
-    // other:               913[x]      1288[v]     843
+    // other:               913[x]      1288[v]     843[x!]
 
 
     // x: not done or give up
