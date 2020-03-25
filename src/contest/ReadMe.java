@@ -5,7 +5,7 @@ public class ReadMe {
     // TOPICS               [v]         [v]         [v]         [x]
 
     // tree:                1339[v]     1325[v]     1379[v]     1372[v]
-    // graph:               997[v]      1361[v]     1043[v]     1387
+    // graph:               997[v]      1361[v]     1043[v]     1387[~]
     // dfs:                 1319[v]     1254[v]     1377[v]     1145
     // bfs:                 1345[v]     1368[!]     1311[v]     1293
     // backtrack:           1307[!]     1239[v]     1219[v]     1291
@@ -24,6 +24,7 @@ public class ReadMe {
     // other:               913[x]      1288[v]     843[x!]     1032
 
 
+    // ~: vague
     // x: not done or give up
     // v: well done
     // !: struggle, get the idea but not done in a pre-defined time
