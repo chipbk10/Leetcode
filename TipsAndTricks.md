@@ -17,4 +17,5 @@ Store currently unsolved elements, later if there is a bigger number, withdraw t
 - initiate UF when doing union (using Map) [947](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/discuss/197668/Count-the-Number-of-Islands-O(N)
 - how to guess an element from a set? [843](https://leetcode.com/problems/guess-the-word/discuss/160945/Python-O(n)-with-maximum-overlap-heuristic)
 - circular array. Avoid the circular point by working on 2 intervals `[0..n-1)` && `[1..n)` [213](), [1388]()
+- using XOR (identical = 0, different = 1) to check duplicated elements in array [136]()
 
