@@ -1,7 +1,7 @@
 # Topics:
 
 ### Handle Duplicate: 115, 730
-### Monotonic: 1135
+### Monotonic: 1135, 1130, 907, 901, 856, 503, 496, 84, 42, 739
 ### Intervals: 546, 312, 1000, 1353, 1288
 ### Game:
 ### Knapsack: 416, 518, 1049
