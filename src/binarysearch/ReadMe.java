@@ -48,5 +48,18 @@ public class ReadMe {
      * and normally the question will give you a precision,
      * in which case you don't need to worry too much about the infinite loop
      * but your while condition will become something like "while lo+1e-7<hi"
+     *
+     *
+     * Collections.binarySearch
+     * Arrays.binarySearch
+     * for binarySearch, the result can be negative. If key is not present, then it returns "(-(insertion point) - 1)".
+     * The insertion point is defined as the point at which the key would be inserted into the list.
+     *
+     * To get the position where the value is the same or closet from the left to the key, we use:
+     *
+     * int i = Collections.binarySearch(A, key);
+     * if (i < 0) i = (-i - 1) - 1;
+     *
+     *
      */
 }
