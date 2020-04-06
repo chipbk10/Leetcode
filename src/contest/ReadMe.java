@@ -14,7 +14,7 @@ public class ReadMe {
     // greedy:              1354[!]     1353[x]     1338[v]     1383[!]
     // stack:               1190[!]     975[x]      1381[v]     901[v]
     // binary search:       1351[v]     1337[v]     1292[!]     1235[!]
-    // 2 pointers:          1248[*]     1234[v]     986[v]      826
+    // 2 pointers:          1248[*]     1234[v]     986[v]      826[x]
     // sliding window:      1208[v]     1040[!]     995[!]      567
     // linked-list:         1290[v]     1019[!]     876[v]      445
     // union-find:          1202[v]     924[v]      947[!]      952
