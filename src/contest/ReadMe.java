@@ -15,9 +15,9 @@ public class ReadMe {
     // stack:               1190[!]     975[x]      1381[v]     901[v]
     // binary search:       1351[v]     1337[v]     1292[!]     1235[!]
     // 2 pointers:          1248[*]     1234[v]     986[v]      826[x]
-    // sliding window:      1208[v]     1040[!]     995[!]      567
-    // linked-list:         1290[v]     1019[!]     876[v]      445
-    // union-find:          1202[v]     924[v]      947[!]      952
+    // sliding window:      1208[v]     1040[!]     995[!]      567[v]
+    // linked-list:         1290[v]     1019[!]     876[v]      445[v]
+    // union-find:          1202[v]     924[v]      947[!]      952[~]
     // heap:                1054[!]     882[!]      864[x]      215
     // design:              1352[x]     1348[x]     705[v]      1206
     // bit manipulation:    1356[v]     1342[v]     1318[v]     1310

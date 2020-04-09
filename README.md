@@ -13,6 +13,7 @@
 ### Binary Search: [#](https://leetcode.com/discuss/interview-question/313216/)
 ### Minimax: 913
 ### Matrix: 1368, 1292, 864, 1293
+### Prime Numbers: 952
 
 # Favorite: 
 
