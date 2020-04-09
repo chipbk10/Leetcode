@@ -1,6 +1,6 @@
 package others.trie;
 
-import data.Trie;
+import data.TrieNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,15 +9,15 @@ public class Problem1032_StreamOfCharacters {
 
     class StreamChecker {
 
-        Trie root = new Trie();
+        TrieNode root = new TrieNode();
         List<Character> list = new ArrayList<>();
 
         public StreamChecker(String[] words) {
             for (String s : words) {
-                Trie node = root;
+                TrieNode node = root;
                 for (int i = s.length()-1; i >= 0; i--) {
                     if (node.children[s.charAt(i)-'a'] == null) {
-                        node.children[s.charAt(i)-'a'] = new Trie();
+                        node.children[s.charAt(i)-'a'] = new TrieNode();
                     }
                     node = node.children[s.charAt(i)-'a'];
                 }
@@ -27,9 +27,9 @@ public class Problem1032_StreamOfCharacters {
 
         public boolean query(char letter) {
             list.add(letter);
-            Trie node = root;
+            TrieNode node = root;
             for (int i = list.size()-1; i >= 0; i--) {
-                Trie next = node.children[list.get(i)-'a'];
+                TrieNode next = node.children[list.get(i)-'a'];
                 if (next == null) return false;
                 if (next.end) return true;
                 node = next;
