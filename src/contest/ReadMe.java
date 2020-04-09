@@ -18,7 +18,7 @@ public class ReadMe {
     // sliding window:      1208[v]     1040[!]     995[!]      567[v]
     // linked-list:         1290[v]     1019[!]     876[v]      445[v]
     // union-find:          1202[v]     924[v]      947[!]      952[~]
-    // heap:                1054[!]     882[!]      864[x]      215
+    // heap:                1054[!]     882[!]      864[x]      215[~]
     // design:              1352[x]     1348[x]     705[v]      1206
     // bit manipulation:    1356[v]     1342[v]     1318[v]     1310
     // other:               913[x]      1288[v]     843[x!]     1032
