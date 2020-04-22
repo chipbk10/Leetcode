@@ -14,6 +14,7 @@
 ### Minimax: 913
 ### Matrix: 1368, 1292, 864, 1293
 ### Prime Numbers: 952
+### Double LinkedList: 460, 432
 
 # Favorite: 
 
