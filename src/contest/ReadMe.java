@@ -2,7 +2,7 @@ package contest;
 
 public class ReadMe {
 
-    // TOPICS               [v]         [v]         [v]         [v]         [x]
+    // TOPICS               [v]         [v]         [v]         [v]         [v]
 
     // tree:                1339[v]     1325[v]     1379[v]     1372[v]     1305[v]
     // graph:               997[v]      1361[v]     1043[v]     1387[~]     1203[x]
