@@ -1,8 +1,8 @@
-import slidingwindow.Problem992_SubarraysWithKDifferentIntegers;
+import bit.Problem_BitWiseANDofNumbersRange;
 
 public class Main {
 
     public static void main(String[] args) {
-        Problem992_SubarraysWithKDifferentIntegers.run();
+        Problem_BitWiseANDofNumbersRange.run();
     }
 }
