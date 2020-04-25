@@ -23,7 +23,9 @@ public class ReadMe {
     // bit manipulation:    1356[v]     1342[v]     1318[v]     1310[v]     371[v]
     // other:               913[x]      1288[v]     843[x!]     1032[v]     850[x]
 
-
+    // intervals: 546, 312, 1000, 1353, 1288, 1235, 252, 253, 495, 616, 759, 646, 435       [x]
+    
+    
     // ~: vague
     // x: not done or give up
     // v: well done
