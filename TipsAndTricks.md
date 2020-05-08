@@ -18,4 +18,5 @@ Store currently unsolved elements, later if there is a bigger number, withdraw t
 - how to guess an element from a set? [843](https://leetcode.com/problems/guess-the-word/discuss/160945/Python-O(n)-with-maximum-overlap-heuristic)
 - circular array. Avoid the circular point by working on 2 intervals `[0..n-1)` && `[1..n)` [213](), [1388]()
 - using XOR (identical = 0, different = 1) to check duplicated elements in array [136]()
-- A float number can be represented as a division of 2 integer number (using GCD to reduce to the simplest form) [149](https://leetcode.com/problems/max-points-on-a-line/discuss/566204/Java-Simple-Code-Math)
+- a float number can be represented as a division of 2 integer number (using GCD to reduce to the simplest form) [149](https://leetcode.com/problems/max-points-on-a-line/discuss/566204/Java-Simple-Code-Math)
+- how to find the meeting point in a cycle linkedlist? [#](https://www.geeksforgeeks.org/find-first-node-of-loop-in-a-linked-list/?ref=rp)
