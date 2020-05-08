@@ -1,4 +1,4 @@
-package twopointers;
+package twopointers.slowfast;
 
 public class Problem457_CircularArrayLoop {
 
