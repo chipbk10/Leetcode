@@ -23,6 +23,7 @@
 # Todo:
 
 #### SkipList: 1206, [#](http://www.mathcs.emory.edu/~cheung/Courses/323/Syllabus/Map/skip-list-impl.html), [#](https://www.youtube.com/watch?v=7pWkspmYUVo&feature=emb_logo)
+#### KMP: [PatternSearching](https://www.youtube.com/watch?v=cH-5KcgUcOE&feature=emb_logo)
 
 # FollowUp:
 
