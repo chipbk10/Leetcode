@@ -31,7 +31,7 @@ public class Problem198_HouseRobber {
         // return rob_top_down(nums, n-1);
 
         // int[] memo = new int[n];
-        // Arrays.fill(memo, -1);
+        // Array.fill(memo, -1);
         // return rob_top_down_memo(nums, n-1, memo);
 
         return rob_iterative_bottom_up_dp(nums);

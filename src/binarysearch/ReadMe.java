@@ -51,7 +51,7 @@ public class ReadMe {
      *
      *
      * Collections.binarySearch
-     * Arrays.binarySearch
+     * Array.binarySearch
      * for binarySearch, the result can be negative. If key is not present, then it returns "(-(insertion point) - 1)".
      * The insertion point is defined as the point at which the key would be inserted into the list.
      *
