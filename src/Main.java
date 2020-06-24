@@ -1,8 +1,8 @@
-import bit.Problem_BitWiseANDofNumbersRange;
+import quickselect.Problem324_WiggleSortII;
 
 public class Main {
 
     public static void main(String[] args) {
-        Problem_BitWiseANDofNumbersRange.run();
+        Problem324_WiggleSortII.run();
     }
 }
