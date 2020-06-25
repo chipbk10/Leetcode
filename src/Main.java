@@ -1,8 +1,8 @@
-import quickselect.Problem324_WiggleSortII;
+import quickselect.Problem347_TopKFrequentElements;
 
 public class Main {
 
     public static void main(String[] args) {
-        Problem324_WiggleSortII.run();
+        Problem347_TopKFrequentElements.run();
     }
 }
