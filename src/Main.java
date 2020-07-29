@@ -1,8 +1,8 @@
-import quickselect.Problem347_TopKFrequentElements;
+import binarysearch.Problem1508_RangeSumOfSortedSubarraySums;
 
 public class Main {
 
     public static void main(String[] args) {
-        Problem347_TopKFrequentElements.run();
+        Problem1508_RangeSumOfSortedSubarraySums.run();
     }
 }
