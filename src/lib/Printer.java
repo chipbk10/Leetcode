@@ -1,6 +1,17 @@
 package lib;
 
+import java.util.List;
+
 public class Printer {
+
+    public static void print(List<Integer> A) {
+        print(A, " ");
+    }
+
+    public static void print(List<Integer> A, String separate) {
+        for (int a : A)
+            print(a, separate);
+    }
 
     public static void print(int[] A) {
         print(A, " ");
