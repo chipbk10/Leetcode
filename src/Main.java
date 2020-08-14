@@ -1,8 +1,8 @@
-import slidingwindow.Problem992_SubarraysWithKDifferentIntegers;
+import quickselect.Problem347_TopKFrequentElements;
 
 public class Main {
 
     public static void main(String[] args) {
-        Problem992_SubarraysWithKDifferentIntegers.run();
+        Problem347_TopKFrequentElements.run();
     }
 }

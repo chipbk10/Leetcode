@@ -54,4 +54,20 @@ public class Problem1248_CountNumberOfNiceSubarrays {
         }
         return res;
     }
+
+    public int numberOfSubarrays_shortVersion(int[] A, int k) {
+
+        // (l+1)*(r+1)
+        int res = 0, l = 0, count = 0;
+        for (int i = 0, j = 0; i < A.length; i++) {
+            count += A[i]%2;
+            if (count == k) l = 0;
+            while (count == k) {
+                count -= A[j++]%2;
+                l++;
+            }
+            res += l;
+        }
+        return res;
+    }
 }

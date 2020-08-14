@@ -24,7 +24,7 @@ public class Problem1307_VerbalArithmeticPuzzle {
         if (m == 0 && n == 0) return true;
         if (m*n == 0) return false;
 
-        Arrays.fill(memo, -1);
+        Array.fill(memo, -1);
         return backtrack(words, result, 0, 0, n-1, 0);
     }
 
